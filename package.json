@@ -11,7 +11,8 @@
     "lint:prettier": "prettier --check .",
     "fix": "run-s -l -c fix:eslint fix:prettier",
     "fix:eslint": "yarn lint:eslint --fix",
-    "fix:prettier": "yarn lint:prettier --write"
+    "fix:prettier": "yarn lint:prettier --write",
+    "env": "vc env pull .env.local"
   },
   "dependencies": {
     "dayjs": "^1.10.6",
